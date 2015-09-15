@@ -1,4 +1,6 @@
 JjyAws::Application.routes.draw do
+  get "wall/write"
+  get "wall/posts"
 	get 'home/hello' => 'home#hello'
 	get 'email/email_form' => 'email#email_form'
 	post 'email/email_send' => 'email#email_send'
