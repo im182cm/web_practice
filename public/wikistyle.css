@@ -1,0 +1,38 @@
+/* wikistyle.css */
+
+*{
+	font-family:Arial;
+}
+
+body {
+	background-color : #e8e5be;
+}
+
+div {
+	border:2px dotted #d18213;
+	border-radius:4px
+}
+
+h1{
+	color:#004515;
+	text-align:center;
+}
+
+.definition{
+	font-weight:bold;
+}
+
+.keyword{
+	font-size:20px;
+	color:#d11342;
+}
+
+#css_image{
+	width:150px;
+	height:150px;
+}
+
+#tag{
+	color:blue;
+	background-color:yellow;
+}
