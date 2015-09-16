@@ -9,6 +9,7 @@ JjyAws::Application.routes.draw do
 	get "home/list" =>'home#list'
 	get "home/add" => 'home#add'
 	post "home/add_process" => 'home#add_process'
+	post "wall/write_complete" => 'wall#write_complete'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
