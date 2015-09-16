@@ -1,0 +1,6 @@
+<h1>List of phone numbers</h1>
+<%@numbers.each do |number| %>
+	<p><strong><%=number.name%></strong><%=number.phone_number%></p>
+<%end%>
+<br>
+<a href="/home/add">Add a new number</a>
