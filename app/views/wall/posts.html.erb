@@ -1,3 +1,6 @@
+<div>
+	<a href="/user/signup">sing up</a>
+</div>
 <div style="background-color: #e9eaed;">
   <h1>Recent Posts</h1>
 	<%@posts.reverse.each do |post|%>
@@ -14,3 +17,7 @@
 	<%end%>
   <a href="/wall/write">Write post again</a>
 </div>
+
+<%User.all.each do |user|%>
+<p> <%=user.username%></p>
+<%end%>

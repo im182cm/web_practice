@@ -1,0 +1,12 @@
+<div>
+	<h4><%=flash[:alert]%></h4>
+</div>
+<div>
+	<h1 style="color:black">Sing up</h1>
+	<form action="/user/signup_complete" method="post">
+		Username: <input type="text" name="username"><br>
+		Password: <input type="password" name="password"><br>
+		Retype Password: <input type="password" name="retype_password"><br>
+		<input type="submit" value="Sign up">
+	</form>
+</div>
