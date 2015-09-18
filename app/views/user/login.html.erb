@@ -1,0 +1,11 @@
+<div>
+	<h4><%=flash[:alert]%></h4>
+</div>
+<div>
+	<h1 style="color:black">Log in</h1>
+	<form action="/user/login_complete" method="post">
+		Username: <input type="text" name="username"><br>
+		Password: <input type="password" name="password"><br>
+		<input type="submit" value="Log in">
+	</form>
+</div>

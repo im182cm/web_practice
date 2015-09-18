@@ -19,6 +19,9 @@ JjyAws::Application.routes.draw do
 	post "wall/write_comment_complete"
 	get "user/signup"
 	post "user/signup_complete"
+	get "user/login"
+	post "user/login_complete"
+	get "user/logout"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

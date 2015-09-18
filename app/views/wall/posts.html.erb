@@ -1,5 +1,10 @@
 <div>
-	<a href="/user/signup">sing up</a>
+	<h4><%=flash[:alert]%></h4>
+	<% if cookies[:user_id].nil?%>
+	<a href="/user/signup">sing up</a> <a href="/user/login">log in</a>
+	<%else%>
+	<a href="/user/logout">log out</a>
+	<%end%>
 </div>
 <div style="background-color: #e9eaed;">
   <h1>Recent Posts</h1>
